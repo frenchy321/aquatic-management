@@ -1,0 +1,220 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'sans-serif', 'arial', 'helvetica';
+    color: red;
+}
+
+.waterfall {
+    height: 600px;
+    width: 100%;
+}
+
+.outer {}
+
+/*HEADER*/
+
+h1 {
+    font-size: 10px;
+    font-style: italic;
+    font-weight: bold;
+    padding-bottom: 10px;
+    background-color: blue;
+    color: white;
+}
+
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+
+}
+
+ul li {
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 2px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+ul li a:hover {
+    background-color: green;
+}
+
+ul li ul li {
+    display: none;
+
+
+}
+
+ul li:hover ul li {
+    display: block;
+
+}
+
+ul li:visited ul li {
+    display: block;
+    color: chartreuse;
+
+}
+
+ul li:active ul li {
+    display: block;
+    color: red;
+
+}
+
+
+.logo {
+    font-size: 60px;
+    color: white;
+    padding: 31px;
+    margin-bottom: 50px;
+
+
+}
+
+.nav {
+    position: absolute;
+    top: 61px;
+    color: white;
+    margin-left: 240px;
+    margin-bottom: 0px;
+    margin-top: 72px;
+
+
+
+}
+
+/*SECTION*/
+
+.one {
+    height: 300px;
+    width: 300px;
+    border: 20px gray;
+    border-radius: 50%;
+    background-color: #3c583c;
+    margin: 5px;
+    margin-top: 100px;
+    font-size: 15px;
+
+
+}
+
+.two {
+    height: 300px;
+    width: 300px;
+    border: 20px;
+    border-radius: 50%;
+    background-color: #3c583c;
+    margin: 5px;
+}
+
+.three {
+    height: 300px;
+    width: 300px;
+    border: 20px;
+    border-radius: 50%;
+    background-color: #3c583c;
+    margin: 5px;
+}
+
+.four {
+    height: 300px;
+    width: 300px;
+    background-color: #3c583c;
+    border: 20px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+section {
+
+    text-align: center;
+    bottom: 300px;
+    float: right;
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 100px;
+
+}
+
+section .one,
+.two,
+.three,
+.four {
+    font-size: 25px;
+    margin-bottom: 50px;
+    color: black;
+    font-style: italic;
+    padding-top: 20px;
+    border: 8px solid black;
+
+}
+
+section div .one {
+    padding-right: 10px;
+}
+
+section .three {
+    padding-top: 30px;
+}
+
+/*TABLES*/
+
+main {
+    background-color: darkgray;
+    width: 50%;
+    margin-top: 100px;
+}
+
+.price-list {
+    text-align: center;
+}
+
+table,
+td,
+th {
+    border: 3px solid black;
+}
+
+table {
+    width: 50%;
+    margin: auto;
+}
+
+td,
+th {
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+caption {
+    font-size: 2em;
+    padding: 10px;
+    background-color: #004f80;
+    color: rgba(245, 238, 238, 0.67);
+    text-align: center;
+
+}
